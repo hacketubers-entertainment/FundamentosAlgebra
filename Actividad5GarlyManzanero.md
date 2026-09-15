@@ -157,29 +157,38 @@ El resultado de $(22 + -6 \times 2 + 17 - 7) \div (2 \times 2) = 5$
 18): $(4 - 1) \times -8 \div (5 - (4 + 1) - 1)$
 
 $$
+
 \begin{array}{l c l}
-\textcolor{red}{(4 - 1)} \times -8 \div (5 - (4 + 1) - 1) & & \text{1. Primero resolvemos el paréntesis }(4 - 1) \\
-\textcolor{red}{3 \times -8} \div (5 - \textcolor{red}{(4 + 1)} - 1) & & \text{2. Luego simplificamos }(4 + 1) = 5 \\
-3 \times -8 \div (\textcolor{red}{5 - 5} - 1) & & \text{3. Continuamos con la resta dentro del paréntesis} \\
-3 \times -8 \div \textcolor{red}{(0 - 1)} & & \text{4. Resolvemos la última resta }(0 - 1) \\
-\textcolor{red}{-24 \div -1} & & \text{5. Ahora realizamos la división final} \\
-\textcolor{red}{24} & & \text{6. Resultado final} \\
+
+\textcolor{red}{(4 - 1)} \times -8 \div (5 - (4 + 1) - 1) & & \text{1. Se resuelve el primer paréntesis} \\
+
+3 \times -8 \div (5 - \textcolor{red}{(4 + 1)} - 1) & & \text{2. Se resuelve el paréntesis más interno del segundo término} \\
+
+3 \times -8 \div (\textcolor{red}{5 - 5} - 1) & & \text{3. Restas dentro del paréntesis de izquierda a derecha} \\
+
+3 \times -8 \div \textcolor{red}{(0 - 1)} & & \text{4. Última resta del paréntesis} \\
+
+\textcolor{red}{3 \times -8} \div -1 & & \text{5. Multiplicación y división de izquierda a derecha} \\
+
+\textcolor{red}{-24 \div -1} & & \text{6. Se resuelve la división final} \\
+
+24 & & \\
+
 \end{array}
+
 $$
 
 El resultado de $(4 - 1) \times -8 \div (5 - (4 + 1) - 1) = 24$
 
 ![Descripción de la imagen](./Foto.jpg)
 
-
-
 25): $(-7 - 4i) - (2 + i)$
 
 $$
 \begin{array}{l c l}
-	(-7 - 4i) - (2 + i) & & \text{1. Se quitan los paréntesis} \\
-	-7 - 2 - 4i - i & & \text{2. Se agrupan términos semejantes} \\
-	\textcolor{red}{-9 - 5i} & & \text{3. Se suman las partes real e imaginaria} \\
+(-7 - 4i) - (2 + i) & & \text{1. Se quitan los paréntesis} \\
+-7 - 2 - 4i - i & & \text{2. Se agrupan términos semejantes} \\
+\textcolor{red}{-9 - 5i} & & \text{3. Se suman las partes real e imaginaria} \\
 \end{array}
 $$
 
@@ -189,9 +198,9 @@ Respuesta: $-9 - 5i$
 
 $$
 \begin{array}{l c l}
-	(2 - 4i) - (5 - 3i) & & \text{1. Se quitan los paréntesis} \\
+(2 - 4i) - (5 - 3i) & & \text{1. Se quitan los paréntesis} \\
 2 - 5 - 4i + 3i & & \text{2. Se agrupan términos semejantes} \\
-	\textcolor{red}{-3 - i} & & \text{3. Se realiza la resta} \\
+\textcolor{red}{-3 - i} & & \text{3. Se realiza la resta} \\
 \end{array}
 $$
 
@@ -201,10 +210,10 @@ Respuesta: $-3 - i$
 
 $$
 \begin{array}{l c l}
-	(7 - 8i) - 3i - 7 & & \text{1. Se ordenan las partes reales e imaginarias} \\
-	7 - 7 - 8i - 3i & & \text{2. Se agrupan términos semejantes} \\
-	\textcolor{red}{0 - 11i} & & \text{3. Se simplifica la parte real} \\
-	\textcolor{red}{-11i} & & \text{4. Resultado} \\
+(7 - 8i) - 3i - 7 & & \text{1. Se ordenan las partes reales e imaginarias} \\
+7 - 7 - 8i - 3i & & \text{2. Se agrupan términos semejantes} \\
+\textcolor{red}{0 - 11i} & & \text{3. Se simplifica la parte real} \\
+\textcolor{red}{-11i} & & \text{4. Resultado} \\
 \end{array}
 $$
 
@@ -348,9 +357,9 @@ Respuesta: $\dfrac{-11 - 37i}{10}$
 
 $$
 \begin{array}{l c l}
-	\frac{4 + 2i}{-1 - 10i} \cdot \frac{-1 + 10i}{-1 + 10i} & & \text{1. Se multiplica por el conjugado} \\
-	\frac{(4 + 2i)(-1 + 10i)}{1 + 100} & & \text{2. Se calcula el denominador} \\
-	\textcolor{red}{\frac{-24 + 38i}{101}} & & \text{3. Se desarrolla y simplifica} \\
+\frac{4 + 2i}{-1 - 10i} \cdot \frac{-1 + 10i}{-1 + 10i} & & \text{1. Se multiplica por el conjugado} \\
+\frac{(4 + 2i)(-1 + 10i)}{1 + 100} & & \text{2. Se calcula el denominador} \\
+\textcolor{red}{\frac{-24 + 38i}{101}} & & \text{3. Se desarrolla y simplifica} \\
 \end{array}
 $$
 
@@ -360,9 +369,9 @@ Respuesta: $\dfrac{-24 + 38i}{101}$
 
 $$
 \begin{array}{l c l}
-	\frac{1 + 4i}{-1 - 6i} \cdot \frac{-1 + 6i}{-1 + 6i} & & \text{1. Se multiplica por el conjugado} \\
-	\frac{(1 + 4i)(-1 + 6i)}{1 + 36} & & \text{2. Se calcula el denominador} \\
-	\textcolor{red}{\frac{-25 + 2i}{37}} & & \text{3. Se desarrolla y simplifica} \\
+ \frac{1 + 4i}{-1 - 6i} \cdot \frac{-1 + 6i}{-1 + 6i} & & \text{1. Se multiplica por el conjugado} \\
+ \frac{(1 + 4i)(-1 + 6i)}{1 + 36} & & \text{2. Se calcula el denominador} \\
+ \textcolor{red}{\frac{-25 + 2i}{37}} & & \text{3. Se desarrolla y simplifica} \\
 \end{array}
 $$
 
@@ -372,9 +381,9 @@ Respuesta: $\dfrac{-25 + 2i}{37}$
 
 $$
 \begin{array}{l c l}
-	\frac{-8 + 4i}{1 + i} \cdot \frac{1 - i}{1 - i} & & \text{1. Se multiplica por el conjugado} \\
-	\frac{-4 + 12i}{2} & & \text{2. Se desarrolla numerador y denominador} \\
-	\textcolor{red}{-2 + 6i} & & \text{3. Se divide entre 2} \\
+ \frac{-8 + 4i}{1 + i} \cdot \frac{1 - i}{1 - i} & & \text{1. Se multiplica por el conjugado} \\
+ \frac{-4 + 12i}{2} & & \text{2. Se desarrolla numerador y denominador} \\
+ \textcolor{red}{-2 + 6i} & & \text{3. Se divide entre 2} \\
 \end{array}
 $$
 
@@ -384,9 +393,9 @@ Respuesta: $-2 + 6i$
 
 $$
 \begin{array}{l c l}
-	\frac{-10 + 8i}{6 + i} \cdot \frac{6 - i}{6 - i} & & \text{1. Se multiplica por el conjugado} \\
-	\frac{(-10 + 8i)(6 - i)}{36 + 1} & & \text{2. Se calcula el denominador} \\
-	\textcolor{red}{\frac{-52 + 58i}{37}} & & \text{3. Se desarrolla y simplifica} \\
+ \frac{-10 + 8i}{6 + i} \cdot \frac{6 - i}{6 - i} & & \text{1. Se multiplica por el conjugado} \\
+ \frac{(-10 + 8i)(6 - i)}{36 + 1} & & \text{2. Se calcula el denominador} \\
+ \textcolor{red}{\frac{-52 + 58i}{37}} & & \text{3. Se desarrolla y simplifica} \\
 \end{array}
 $$
 
@@ -396,23 +405,22 @@ Respuesta: $\dfrac{-52 + 58i}{37}$
 
 $$
 \begin{array}{l c l}
-	\frac{2 - 2i}{4 - 10i} \cdot \frac{4 + 10i}{4 + 10i} & & \text{1. Se multiplica por el conjugado} \\
-	\frac{28 + 12i}{116} & & \text{2. Se desarrolla numerador y denominador} \\
-	\textcolor{red}{\frac{7 + 3i}{29}} & & \text{3. Se simplifica la fracción} \\
+ \frac{2 - 2i}{4 - 10i} \cdot \frac{4 + 10i}{4 + 10i} & & \text{1. Se multiplica por el conjugado} \\
+ \frac{28 + 12i}{116} & & \text{2. Se desarrolla numerador y denominador} \\
+ \textcolor{red}{\frac{7 + 3i}{29}} & & \text{3. Se simplifica la fracción} \\
 \end{array}
 $$
 
 Respuesta: $\dfrac{7 + 3i}{29}$
 
 **Calcula el valor absoluto de los siguientes números complejos**
-
 43): $|-9 - 9i|$
 
 $$
 \begin{array}{l c l}
-	\sqrt{(-9)^2 + (-9)^2} & & \text{1. Se aplica la fórmula del módulo} \\
-	\sqrt{81 + 81} & & \text{2. Se calculan los cuadrados} \\
-	\textcolor{red}{\sqrt{162} = 9\sqrt{2}} & & \text{3. Se simplifica la raíz} \\
+ \sqrt{(-9)^2 + (-9)^2} & & \text{1. Se aplica la fórmula del módulo} \\
+ \sqrt{81 + 81} & & \text{2. Se calculan los cuadrados} \\
+ \textcolor{red}{\sqrt{162} = 9\sqrt{2}} & & \text{3. Se simplifica la raíz} \\
 \end{array}
 $$
 
@@ -422,9 +430,9 @@ Respuesta: $9\sqrt{2}$
 
 $$
 \begin{array}{l c l}
-	\sqrt{8^2 + (-6)^2} & & \text{1. Se aplica la fórmula del módulo} \\
-	\sqrt{64 + 36} & & \text{2. Se calculan los cuadrados} \\
-	\textcolor{red}{10} & & \text{3. Se obtiene la raíz} \\
+ \sqrt{8^2 + (-6)^2} & & \text{1. Se aplica la fórmula del módulo} \\
+ \sqrt{64 + 36} & & \text{2. Se calculan los cuadrados} \\
+ \textcolor{red}{10} & & \text{3. Se obtiene la raíz} \\
 \end{array}
 $$
 
@@ -434,9 +442,9 @@ Respuesta: $10$
 
 $$
 \begin{array}{l c l}
-	\sqrt{6^2 + (-3)^2} & & \text{1. Se aplica la fórmula del módulo} \\
-	\sqrt{36 + 9} & & \text{2. Se calculan los cuadrados} \\
-	\textcolor{red}{\sqrt{45} = 3\sqrt{5}} & & \text{3. Se simplifica la raíz} \\
+ \sqrt{6^2 + (-3)^2} & & \text{1. Se aplica la fórmula del módulo} \\
+ \sqrt{36 + 9} & & \text{2. Se calculan los cuadrados} \\
+ \textcolor{red}{\sqrt{45} = 3\sqrt{5}} & & \text{3. Se simplifica la raíz} \\
 \end{array}
 $$
 
@@ -446,9 +454,9 @@ Respuesta: $3\sqrt{5}$
 
 $$
 \begin{array}{l c l}
-	\sqrt{10^2 + 10^2} & & \text{1. Se aplica la fórmula del módulo} \\
-	\sqrt{200} & & \text{2. Se suman los cuadrados} \\
-	\textcolor{red}{10\sqrt{2}} & & \text{3. Se simplifica la raíz} \\
+ \sqrt{10^2 + 10^2} & & \text{1. Se aplica la fórmula del módulo} \\
+ \sqrt{200} & & \text{2. Se suman los cuadrados} \\
+ \textcolor{red}{10\sqrt{2}} & & \text{3. Se simplifica la raíz} \\
 \end{array}
 $$
 
@@ -458,9 +466,9 @@ Respuesta: $10\sqrt{2}$
 
 $$
 \begin{array}{l c l}
-	\sqrt{6^2 + (-10)^2} & & \text{1. Se aplica la fórmula del módulo} \\
-	\sqrt{36 + 100} & & \text{2. Se calculan los cuadrados} \\
-	\textcolor{red}{\sqrt{136} = 2\sqrt{34}} & & \text{3. Se simplifica la raíz} \\
+ \sqrt{6^2 + (-10)^2} & & \text{1. Se aplica la fórmula del módulo} \\
+ \sqrt{36 + 100} & & \text{2. Se calculan los cuadrados} \\
+ \textcolor{red}{\sqrt{136} = 2\sqrt{34}} & & \text{3. Se simplifica la raíz} \\
 \end{array}
 $$
 
@@ -470,9 +478,9 @@ Respuesta: $2\sqrt{34}$
 
 $$
 \begin{array}{l c l}
-	\sqrt{(-1)^2 + 7^2} & & \text{1. Se aplica la fórmula del módulo} \\
-	\sqrt{1 + 49} & & \text{2. Se calculan los cuadrados} \\
-	\textcolor{red}{\sqrt{50} = 5\sqrt{2}} & & \text{3. Se simplifica la raíz} \\
+ \sqrt{(-1)^2 + 7^2} & & \text{1. Se aplica la fórmula del módulo} \\
+ \sqrt{1 + 49} & & \text{2. Se calculan los cuadrados} \\
+ \textcolor{red}{\sqrt{50} = 5\sqrt{2}} & & \text{3. Se simplifica la raíz} \\
 \end{array}
 $$
 
@@ -484,9 +492,9 @@ Respuesta: $5\sqrt{2}$
 
 $$
 \begin{array}{l c l}
-	\textcolor{red}{i^5 = i^4 \cdot i} & & \text{1. Se separa la potencia} \\
-	\textcolor{red}{1 \cdot i} & & \text{2. Se usa } i^4 = 1 \\
-	\textcolor{red}{i} & & \text{3. Resultado} \\
+ \textcolor{red}{i^5 = i^4 \cdot i} & & \text{1. Se separa la potencia} \\
+ \textcolor{red}{1 \cdot i} & & \text{2. Se usa } i^4 = 1 \\
+ \textcolor{red}{i} & & \text{3. Resultado} \\
 \end{array}
 $$
 
@@ -496,9 +504,9 @@ Respuesta: $i$
 
 $$
 \begin{array}{l c l}
-	\textcolor{red}{i^{10} = (i^4)^2 \cdot i^2} & & \text{1. Se separa la potencia en múltiplos de 4} \\
-	\textcolor{red}{1 \cdot (-1)} & & \text{2. Se usan } i^4 = 1 \text{ e } i^2 = -1 \\
-	\textcolor{red}{-1} & & \text{3. Resultado} \\
+ \textcolor{red}{i^{10} = (i^4)^2 \cdot i^2} & & \text{1. Se separa la potencia en múltiplos de 4} \\
+ \textcolor{red}{1 \cdot (-1)} & & \text{2. Se usan } i^4 = 1 \text{ e } i^2 = -1 \\
+ \textcolor{red}{-1} & & \text{3. Resultado} \\
 \end{array}
 $$
 
@@ -508,9 +516,9 @@ Respuesta: $-1$
 
 $$
 \begin{array}{l c l}
-	\textcolor{red}{i^{20} = (i^4)^5} & & \text{1. Se expresa 20 como múltiplo de 4} \\
-	\textcolor{red}{1^5} & & \text{2. Se usa } i^4 = 1 \\
-	\textcolor{red}{1} & & \text{3. Resultado} \\
+ \textcolor{red}{i^{20} = (i^4)^5} & & \text{1. Se expresa 20 como múltiplo de 4} \\
+ \textcolor{red}{1^5} & & \text{2. Se usa } i^4 = 1 \\
+ \textcolor{red}{1} & & \text{3. Resultado} \\
 \end{array}
 $$
 
@@ -520,9 +528,9 @@ Respuesta: $1$
 
 $$
 \begin{array}{l c l}
-	\textcolor{red}{i^{35} = i^{32} \cdot i^3} & & \text{1. Se separa la potencia} \\
-	\textcolor{red}{1 \cdot (-i)} & & \text{2. Se usan } i^{32} = 1 \text{ e } i^3 = -i \\
-	\textcolor{red}{-i} & & \text{3. Resultado} \\
+ \textcolor{red}{i^{35} = i^{32} \cdot i^3} & & \text{1. Se separa la potencia} \\
+ \textcolor{red}{1 \cdot (-i)} & & \text{2. Se usan } i^{32} = 1 \text{ e } i^3 = -i \\
+ \textcolor{red}{-i} & & \text{3. Resultado} \\
 \end{array}
 $$
 
@@ -532,9 +540,9 @@ Respuesta: $-i$
 
 $$
 \begin{array}{l c l}
-	\textcolor{red}{i^{256} = (i^4)^{64}} & & \text{1. Se expresa 256 como múltiplo de 4} \\
-	\textcolor{red}{1^{64}} & & \text{2. Se usa } i^4 = 1 \\
-	\textcolor{red}{1} & & \text{3. Resultado} \\
+ \textcolor{red}{i^{256} = (i^4)^{64}} & & \text{1. Se expresa 256 como múltiplo de 4} \\
+ \textcolor{red}{1^{64}} & & \text{2. Se usa } i^4 = 1 \\
+ \textcolor{red}{1} & & \text{3. Resultado} \\
 \end{array}
 $$
 
@@ -544,29 +552,28 @@ Respuesta: $1$
 
 $$
 \begin{array}{l c l}
-	\textcolor{red}{i^{55} = i^{52} \cdot i^3} & & \text{1. Se separa la potencia} \\
-	\textcolor{red}{1 \cdot (-i)} & & \text{2. Se usan } i^{52} = 1 \text{ e } i^3 = -i \\
-	\textcolor{red}{-i} & & \text{3. Resultado} \\
+ \textcolor{red}{i^{55} = i^{52} \cdot i^3} & & \text{1. Se separa la potencia} \\
+ \textcolor{red}{1 \cdot (-i)} & & \text{2. Se usan } i^{52} = 1 \text{ e } i^3 = -i \\
+ \textcolor{red}{-i} & & \text{3. Resultado} \\
 \end{array}
 $$
 
 Respuesta: $-i$
 
 **Convierte los siguientes números complejos a su forma polar**
-
 55): $6 - 8i$
 
 $$
 \begin{array}{l c l}
-	\textcolor{red}{r = \sqrt{6^2 + (-8)^2}} & & \text{1. Se calcula el módulo} \\
-	\textcolor{red}{r = \sqrt{36 + 64} = 10} & & \text{2. Se simplifica la raíz} \\
+ \textcolor{red}{r = \sqrt{6^2 + (-8)^2}} & & \text{1. Se calcula el módulo} \\
+ \textcolor{red}{r = \sqrt{36 + 64} = 10} & & \text{2. Se simplifica la raíz} \\
 \end{array}
 $$
 
 $$
 \begin{array}{l c l}
-	\textcolor{red}{\theta = \tan^{-1}\left(\frac{-8}{6}\right)} & & \text{3. Se calcula el ángulo} \\
-	\textcolor{red}{\theta \approx 306.87^\circ} & & \text{4. Se expresa en el intervalo }[0^\circ,360^\circ) \\
+ \textcolor{red}{\theta = \tan^{-1}\left(\frac{-8}{6}\right)} & & \text{3. Se calcula el ángulo} \\
+ \textcolor{red}{\theta \approx 306.87^\circ} & & \text{4. Se expresa en el intervalo }[0^\circ,360^\circ) \\
 \end{array}
 $$
 
@@ -576,15 +583,15 @@ Forma polar: $10(\cos 306.87^\circ + i\sin 306.87^\circ)$
 
 $$
 \begin{array}{l c l}
-	\textcolor{red}{r = \sqrt{(5\sqrt{2})^2 + (5\sqrt{2})^2}} & & \text{1. Se calcula el módulo} \\
-	\textcolor{red}{r = \sqrt{50 + 50} = 10} & & \text{2. Se simplifica la raíz} \\
+ \textcolor{red}{r = \sqrt{(5\sqrt{2})^2 + (5\sqrt{2})^2}} & & \text{1. Se calcula el módulo} \\
+ \textcolor{red}{r = \sqrt{50 + 50} = 10} & & \text{2. Se simplifica la raíz} \\
 \end{array}
 $$
 
 $$
 \begin{array}{l c l}
-	\textcolor{red}{\theta = \tan^{-1}\left(\frac{5\sqrt{2}}{5\sqrt{2}}\right)} & & \text{3. Se calcula el ángulo} \\
-	\textcolor{red}{\theta = 45^\circ} & & \text{4. Se identifica el primer cuadrante} \\
+ \textcolor{red}{\theta = \tan^{-1}\left(\frac{5\sqrt{2}}{5\sqrt{2}}\right)} & & \text{3. Se calcula el ángulo} \\
+ \textcolor{red}{\theta = 45^\circ} & & \text{4. Se identifica el primer cuadrante} \\
 \end{array}
 $$
 
@@ -594,15 +601,15 @@ Forma polar: $10(\cos 45^\circ + i\sin 45^\circ)$
 
 $$
 \begin{array}{l c l}
-	\textcolor{red}{r = \sqrt{2^2 + (2\sqrt{3})^2}} & & \text{1. Se calcula el módulo} \\
-	\textcolor{red}{r = \sqrt{4 + 12} = 4} & & \text{2. Se simplifica la raíz} \\
+ \textcolor{red}{r = \sqrt{2^2 + (2\sqrt{3})^2}} & & \text{1. Se calcula el módulo} \\
+ \textcolor{red}{r = \sqrt{4 + 12} = 4} & & \text{2. Se simplifica la raíz} \\
 \end{array}
 $$
 
 $$
 \begin{array}{l c l}
-	\textcolor{red}{\theta = \tan^{-1}\left(\frac{-2\sqrt{3}}{2}\right)} & & \text{3. Se calcula el ángulo de referencia} \\
-	\textcolor{red}{\theta = 300^\circ} & & \text{4. Se ubica en el cuarto cuadrante} \\
+ \textcolor{red}{\theta = \tan^{-1}\left(\frac{-2\sqrt{3}}{2}\right)} & & \text{3. Se calcula el ángulo de referencia} \\
+ \textcolor{red}{\theta = 300^\circ} & & \text{4. Se ubica en el cuarto cuadrante} \\
 \end{array}
 $$
 
@@ -612,15 +619,15 @@ Forma polar: $4(\cos 300^\circ + i\sin 300^\circ)$
 
 $$
 \begin{array}{l c l}
-	\textcolor{red}{r = \sqrt{\left(\frac{3\sqrt{3}}{2}\right)^2 + \left(-\frac{3}{2}\right)^2}} & & \text{1. Se calcula el módulo} \\
-	\textcolor{red}{r = \sqrt{\frac{27}{4} + \frac{9}{4}} = 3} & & \text{2. Se simplifica la raíz} \\
+ \textcolor{red}{r = \sqrt{\left(\frac{3\sqrt{3}}{2}\right)^2 + \left(-\frac{3}{2}\right)^2}} & & \text{1. Se calcula el módulo} \\
+ \textcolor{red}{r = \sqrt{\frac{27}{4} + \frac{9}{4}} = 3} & & \text{2. Se simplifica la raíz} \\
 \end{array}
 $$
 
 $$
 \begin{array}{l c l}
-	\textcolor{red}{\theta = \tan^{-1}\left(\frac{-3/2}{3\sqrt{3}/2}\right)} & & \text{3. Se calcula el ángulo de referencia} \\
-	\textcolor{red}{\theta = 330^\circ} & & \text{4. Se ubica en el cuarto cuadrante} \\
+ \textcolor{red}{\theta = \tan^{-1}\left(\frac{-3/2}{3\sqrt{3}/2}\right)} & & \text{3. Se calcula el ángulo de referencia} \\
+ \textcolor{red}{\theta = 330^\circ} & & \text{4. Se ubica en el cuarto cuadrante} \\
 \end{array}
 $$
 
@@ -630,8 +637,8 @@ Forma polar: $3(\cos 330^\circ + i\sin 330^\circ)$
 
 $$
 \begin{array}{l c l}
-	\textcolor{red}{r = |-2| = 2} & & \text{1. Se calcula el módulo} \\
-	\textcolor{red}{\theta = 180^\circ} & & \text{2. El número está sobre el eje real negativo} \\
+ \textcolor{red}{r = |-2| = 2} & & \text{1. Se calcula el módulo} \\
+ \textcolor{red}{\theta = 180^\circ} & & \text{2. El número está sobre el eje real negativo} \\
 \end{array}
 $$
 
@@ -641,21 +648,20 @@ Forma polar: $2(\cos 180^\circ + i\sin 180^\circ)$
 
 $$
 \begin{array}{l c l}
-	\textcolor{red}{r = |-7i| = 7} & & \text{1. Se calcula el módulo} \\
-	\textcolor{red}{\theta = 270^\circ} & & \text{2. El número está sobre el eje imaginario negativo} \\
+ \textcolor{red}{r = |-7i| = 7} & & \text{1. Se calcula el módulo} \\
+ \textcolor{red}{\theta = 270^\circ} & & \text{2. El número está sobre el eje imaginario negativo} \\
 \end{array}
 $$
 
 Forma polar: $7(\cos 270^\circ + i\sin 270^\circ)$
 
 **Convierte los números complejos de su forma polar a su forma rectangular**
-
 61): $\cos 30^\circ + i\sin 30^\circ$
 
 $$
 \begin{array}{l c l}
-	\textcolor{red}{\cos 30^\circ = \frac{\sqrt{3}}{2}, \quad \sin 30^\circ = \frac{1}{2}} & & \text{1. Se sustituyen los valores trigonométricos} \\
-	\textcolor{red}{\frac{\sqrt{3}}{2} + \frac{1}{2}i} & & \text{2. Se escribe la forma rectangular} \\
+ \textcolor{red}{\cos 30^\circ = \frac{\sqrt{3}}{2}, \quad \sin 30^\circ = \frac{1}{2}} & & \text{1. Se sustituyen los valores trigonométricos} \\
+ \textcolor{red}{\frac{\sqrt{3}}{2} + \frac{1}{2}i} & & \text{2. Se escribe la forma rectangular} \\
 \end{array}
 $$
 
@@ -665,8 +671,8 @@ Respuesta: $\dfrac{\sqrt{3}}{2} + \dfrac{1}{2}i$
 
 $$
 \begin{array}{l c l}
-	\textcolor{red}{2\left(\frac{1}{2} + i\frac{\sqrt{3}}{2}\right)} & & \text{1. Se sustituyen seno y coseno} \\
-	\textcolor{red}{1 + \sqrt{3}i} & & \text{2. Se distribuye el módulo }2 \\
+ \textcolor{red}{2\left(\frac{1}{2} + i\frac{\sqrt{3}}{2}\right)} & & \text{1. Se sustituyen seno y coseno} \\
+ \textcolor{red}{1 + \sqrt{3}i} & & \text{2. Se distribuye el módulo }2 \\
 \end{array}
 $$
 
@@ -676,8 +682,8 @@ Respuesta: $1 + \sqrt{3}i$
 
 $$
 \begin{array}{l c l}
-	\textcolor{red}{1.5(0 + i)} & & \text{1. Se sustituyen }\cos 90^\circ=0\text{ y }\sin 90^\circ=1 \\
-	\textcolor{red}{1.5i} & & \text{2. Se multiplica por el módulo} \\
+ \textcolor{red}{1.5(0 + i)} & & \text{1. Se sustituyen }\cos 90^\circ=0\text{ y }\sin 90^\circ=1 \\
+ \textcolor{red}{1.5i} & & \text{2. Se multiplica por el módulo} \\
 \end{array}
 $$
 
@@ -687,8 +693,8 @@ Respuesta: $1.5i$
 
 $$
 \begin{array}{l c l}
-	\textcolor{red}{2.5\left(-\frac{1}{2} + i\frac{\sqrt{3}}{2}\right)} & & \text{1. Se sustituyen seno y coseno} \\
-	\textcolor{red}{-\frac{5}{4} + \frac{5\sqrt{3}}{4}i} & & \text{2. Se distribuye el módulo }2.5 \\
+ \textcolor{red}{2.5\left(-\frac{1}{2} + i\frac{\sqrt{3}}{2}\right)} & & \text{1. Se sustituyen seno y coseno} \\
+ \textcolor{red}{-\frac{5}{4} + \frac{5\sqrt{3}}{4}i} & & \text{2. Se distribuye el módulo }2.5 \\
 \end{array}
 $$
 
@@ -698,8 +704,8 @@ Respuesta: $-\dfrac{5}{4} + \dfrac{5\sqrt{3}}{4}i$
 
 $$
 \begin{array}{l c l}
-	\textcolor{red}{4\left(-\frac{\sqrt{2}}{2} + i\frac{\sqrt{2}}{2}\right)} & & \text{1. Se sustituyen seno y coseno} \\
-	\textcolor{red}{-2\sqrt{2} + 2\sqrt{2}i} & & \text{2. Se distribuye el módulo }4 \\
+ \textcolor{red}{4\left(-\frac{\sqrt{2}}{2} + i\frac{\sqrt{2}}{2}\right)} & & \text{1. Se sustituyen seno y coseno} \\
+ \textcolor{red}{-2\sqrt{2} + 2\sqrt{2}i} & & \text{2. Se distribuye el módulo }4 \\
 \end{array}
 $$
 
@@ -709,22 +715,21 @@ Respuesta: $-2\sqrt{2} + 2\sqrt{2}i$
 
 $$
 \begin{array}{l c l}
-	\textcolor{red}{3(-1 + 0i)} & & \text{1. Se sustituyen }\cos 180^\circ=-1\text{ y }\sin 180^\circ=0 \\
-	\textcolor{red}{-3} & & \text{2. Se multiplica por el módulo} \\
+ \textcolor{red}{3(-1 + 0i)} & & \text{1. Se sustituyen }\cos 180^\circ=-1\text{ y }\sin 180^\circ=0 \\
+ \textcolor{red}{-3} & & \text{2. Se multiplica por el módulo} \\
 \end{array}
 $$
 
 Respuesta: $-3$
 
 **Obtén TODAS las raíces de los siguientes complejos**
-
 67): Dos raíces cuadradas de $4(\cos 30^\circ + i\sin 30^\circ)$
 
 $$
 \begin{array}{l c l}
-	\textcolor{red}{r = \sqrt{4} = 2} & & \text{1. Se calcula la raíz del módulo} \\
-	\textcolor{red}{\theta_k = \frac{30^\circ + 360^\circ k}{2}} & & \text{2. Se aplica la fórmula de raíces} \\
-	\textcolor{red}{k=0,1 \Rightarrow \theta=15^\circ,195^\circ} & & \text{3. Se toman las dos raíces} \\
+ \textcolor{red}{r = \sqrt{4} = 2} & & \text{1. Se calcula la raíz del módulo} \\
+ \textcolor{red}{\theta_k = \frac{30^\circ + 360^\circ k}{2}} & & \text{2. Se aplica la fórmula de raíces} \\
+ \textcolor{red}{k=0,1 \Rightarrow \theta=15^\circ,195^\circ} & & \text{3. Se toman las dos raíces} \\
 \end{array}
 $$
 
@@ -732,8 +737,8 @@ Las raíces son:
 
 $$
 \begin{array}{l c l}
-	\textcolor{red}{2(\cos 15^\circ + i\sin 15^\circ)} & & \text{4. Primera raíz} \\
-	\textcolor{red}{2(\cos 195^\circ + i\sin 195^\circ)} & & \text{5. Segunda raíz} \\
+ \textcolor{red}{2(\cos 15^\circ + i\sin 15^\circ)} & & \text{4. Primera raíz} \\
+ \textcolor{red}{2(\cos 195^\circ + i\sin 195^\circ)} & & \text{5. Segunda raíz} \\
 \end{array}
 $$
 
@@ -741,9 +746,9 @@ $$
 
 $$
 \begin{array}{l c l}
-	\textcolor{red}{r = \sqrt{3}} & & \text{1. Se calcula la raíz del módulo} \\
-	\textcolor{red}{\theta_k = \frac{90^\circ + 360^\circ k}{2}} & & \text{2. Se aplica la fórmula de raíces} \\
-	\textcolor{red}{k=0,1 \Rightarrow \theta=45^\circ,225^\circ} & & \text{3. Se toman las dos raíces} \\
+ \textcolor{red}{r = \sqrt{3}} & & \text{1. Se calcula la raíz del módulo} \\
+ \textcolor{red}{\theta_k = \frac{90^\circ + 360^\circ k}{2}} & & \text{2. Se aplica la fórmula de raíces} \\
+ \textcolor{red}{k=0,1 \Rightarrow \theta=45^\circ,225^\circ} & & \text{3. Se toman las dos raíces} \\
 \end{array}
 $$
 
@@ -751,8 +756,8 @@ Las raíces son:
 
 $$
 \begin{array}{l c l}
-	\textcolor{red}{\sqrt{3}(\cos 45^\circ + i\sin 45^\circ)} & & \text{4. Primera raíz} \\
-	\textcolor{red}{\sqrt{3}(\cos 225^\circ + i\sin 225^\circ)} & & \text{5. Segunda raíz} \\
+ \textcolor{red}{\sqrt{3}(\cos 45^\circ + i\sin 45^\circ)} & & \text{4. Primera raíz} \\
+ \textcolor{red}{\sqrt{3}(\cos 225^\circ + i\sin 225^\circ)} & & \text{5. Segunda raíz} \\
 \end{array}
 $$
 
@@ -760,16 +765,16 @@ $$
 
 $$
 \begin{array}{l c l}
-	\textcolor{red}{r = |-4\sqrt{2} + 4\sqrt{2}i| = 8} & & \text{1. Se calcula el módulo} \\
-	\textcolor{red}{\theta = 135^\circ} & & \text{2. Se identifica el argumento} \\
+ \textcolor{red}{r = |-4\sqrt{2} + 4\sqrt{2}i| = 8} & & \text{1. Se calcula el módulo} \\
+ \textcolor{red}{\theta = 135^\circ} & & \text{2. Se identifica el argumento} \\
 \end{array}
 $$
 
 $$
 \begin{array}{l c l}
-	\textcolor{red}{\sqrt[3]{8} = 2} & & \text{3. Se calcula la raíz cúbica del módulo} \\
-	\textcolor{red}{\theta_k = \frac{135^\circ + 360^\circ k}{3}} & & \text{4. Se aplica la fórmula de raíces} \\
-	\textcolor{red}{k=0,1,2 \Rightarrow \theta=45^\circ,165^\circ,285^\circ} & & \text{5. Se obtienen los tres ángulos} \\
+ \textcolor{red}{\sqrt[3]{8} = 2} & & \text{3. Se calcula la raíz cúbica del módulo} \\
+ \textcolor{red}{\theta_k = \frac{135^\circ + 360^\circ k}{3}} & & \text{4. Se aplica la fórmula de raíces} \\
+ \textcolor{red}{k=0,1,2 \Rightarrow \theta=45^\circ,165^\circ,285^\circ} & & \text{5. Se obtienen los tres ángulos} \\
 \end{array}
 $$
 
@@ -777,9 +782,9 @@ Las raíces son:
 
 $$
 \begin{array}{l c l}
-	\textcolor{red}{2(\cos 45^\circ + i\sin 45^\circ)} & & \text{6. Primera raíz} \\
-	\textcolor{red}{2(\cos 165^\circ + i\sin 165^\circ)} & & \text{7. Segunda raíz} \\
-	\textcolor{red}{2(\cos 285^\circ + i\sin 285^\circ)} & & \text{8. Tercera raíz} \\
+ \textcolor{red}{2(\cos 45^\circ + i\sin 45^\circ)} & & \text{6. Primera raíz} \\
+ \textcolor{red}{2(\cos 165^\circ + i\sin 165^\circ)} & & \text{7. Segunda raíz} \\
+ \textcolor{red}{2(\cos 285^\circ + i\sin 285^\circ)} & & \text{8. Tercera raíz} \\
 \end{array}
 $$
 
@@ -787,16 +792,16 @@ $$
 
 $$
 \begin{array}{l c l}
-	\textcolor{red}{r = \left|-\frac{27}{8}\right| = \frac{27}{8}} & & \text{1. Se calcula el módulo} \\
-	\textcolor{red}{\theta = 180^\circ} & & \text{2. Se identifica el argumento} \\
+ \textcolor{red}{r = \left|-\frac{27}{8}\right| = \frac{27}{8}} & & \text{1. Se calcula el módulo} \\
+ \textcolor{red}{\theta = 180^\circ} & & \text{2. Se identifica el argumento} \\
 \end{array}
 $$
 
 $$
 \begin{array}{l c l}
-	\textcolor{red}{\sqrt[3]{\frac{27}{8}} = \frac{3}{2}} & & \text{3. Se calcula la raíz cúbica del módulo} \\
-	\textcolor{red}{\theta_k = \frac{180^\circ + 360^\circ k}{3}} & & \text{4. Se aplica la fórmula de raíces} \\
-	\textcolor{red}{k=0,1,2 \Rightarrow \theta=60^\circ,180^\circ,300^\circ} & & \text{5. Se obtienen los tres ángulos} \\
+ \textcolor{red}{\sqrt[3]{\frac{27}{8}} = \frac{3}{2}} & & \text{3. Se calcula la raíz cúbica del módulo} \\
+ \textcolor{red}{\theta_k = \frac{180^\circ + 360^\circ k}{3}} & & \text{4. Se aplica la fórmula de raíces} \\
+ \textcolor{red}{k=0,1,2 \Rightarrow \theta=60^\circ,180^\circ,300^\circ} & & \text{5. Se obtienen los tres ángulos} \\
 \end{array}
 $$
 
@@ -804,9 +809,9 @@ Las raíces son:
 
 $$
 \begin{array}{l c l}
-	\textcolor{red}{\frac{3}{2}(\cos 60^\circ + i\sin 60^\circ)} & & \text{6. Primera raíz} \\
-	\textcolor{red}{-\frac{3}{2}} & & \text{7. Segunda raíz} \\
-	\textcolor{red}{\frac{3}{2}(\cos 300^\circ + i\sin 300^\circ)} & & \text{8. Tercera raíz} \\
+ \textcolor{red}{\frac{3}{2}(\cos 60^\circ + i\sin 60^\circ)} & & \text{6. Primera raíz} \\
+ \textcolor{red}{-\frac{3}{2}} & & \text{7. Segunda raíz} \\
+ \textcolor{red}{\frac{3}{2}(\cos 300^\circ + i\sin 300^\circ)} & & \text{8. Tercera raíz} \\
 \end{array}
 $$
 
@@ -814,15 +819,15 @@ $$
 
 $$
 \begin{array}{l c l}
-	\textcolor{red}{-32i = 32(\cos 270^\circ + i\sin 270^\circ)} & & \text{1. Se convierte a forma polar} \\
+ \textcolor{red}{-32i = 32(\cos 270^\circ + i\sin 270^\circ)} & & \text{1. Se convierte a forma polar} \\
 \end{array}
 $$
 
 $$
 \begin{array}{l c l}
-	\textcolor{red}{\sqrt[5]{32} = 2} & & \text{2. Se calcula la raíz quinta del módulo} \\
-	\textcolor{red}{\theta_k = \frac{270^\circ + 360^\circ k}{5}} & & \text{3. Se aplica la fórmula de raíces} \\
-	\textcolor{red}{k=0,1,2,3,4 \Rightarrow \theta=54^\circ,126^\circ,198^\circ,270^\circ,342^\circ} & & \text{4. Se obtienen los cinco ángulos} \\
+ \textcolor{red}{\sqrt[5]{32} = 2} & & \text{2. Se calcula la raíz quinta del módulo} \\
+ \textcolor{red}{\theta_k = \frac{270^\circ + 360^\circ k}{5}} & & \text{3. Se aplica la fórmula de raíces} \\
+ \textcolor{red}{k=0,1,2,3,4 \Rightarrow \theta=54^\circ,126^\circ,198^\circ,270^\circ,342^\circ} & & \text{4. Se obtienen los cinco ángulos} \\
 \end{array}
 $$
 
@@ -830,11 +835,11 @@ Las raíces son:
 
 $$
 \begin{array}{l c l}
-	\textcolor{red}{2(\cos 54^\circ + i\sin 54^\circ)} & & \text{5. Primera raíz} \\
-	\textcolor{red}{2(\cos 126^\circ + i\sin 126^\circ)} & & \text{6. Segunda raíz} \\
-	\textcolor{red}{2(\cos 198^\circ + i\sin 198^\circ)} & & \text{7. Tercera raíz} \\
-	\textcolor{red}{2(\cos 270^\circ + i\sin 270^\circ)} & & \text{8. Cuarta raíz} \\
-	\textcolor{red}{2(\cos 342^\circ + i\sin 342^\circ)} & & \text{9. Quinta raíz} \\
+ \textcolor{red}{2(\cos 54^\circ + i\sin 54^\circ)} & & \text{5. Primera raíz} \\
+ \textcolor{red}{2(\cos 126^\circ + i\sin 126^\circ)} & & \text{6. Segunda raíz} \\
+ \textcolor{red}{2(\cos 198^\circ + i\sin 198^\circ)} & & \text{7. Tercera raíz} \\
+ \textcolor{red}{2(\cos 270^\circ + i\sin 270^\circ)} & & \text{8. Cuarta raíz} \\
+ \textcolor{red}{2(\cos 342^\circ + i\sin 342^\circ)} & & \text{9. Quinta raíz} \\
 \end{array}
 $$
 
@@ -842,15 +847,15 @@ $$
 
 $$
 \begin{array}{l c l}
-	\textcolor{red}{729 = 729(\cos 0^\circ + i\sin 0^\circ)} & & \text{1. Se convierte a forma polar} \\
+ \textcolor{red}{729 = 729(\cos 0^\circ + i\sin 0^\circ)} & & \text{1. Se convierte a forma polar} \\
 \end{array}
 $$
 
 $$
 \begin{array}{l c l}
-	\textcolor{red}{\sqrt[6]{729} = 3} & & \text{2. Se calcula la raíz sexta del módulo} \\
-	\textcolor{red}{\theta_k = \frac{0^\circ + 360^\circ k}{6}} & & \text{3. Se aplica la fórmula de raíces} \\
-	\textcolor{red}{k=0,1,2,3,4,5 \Rightarrow \theta=0^\circ,60^\circ,120^\circ,180^\circ,240^\circ,300^\circ} & & \text{4. Se obtienen los seis ángulos} \\
+ \textcolor{red}{\sqrt[6]{729} = 3} & & \text{2. Se calcula la raíz sexta del módulo} \\
+ \textcolor{red}{\theta_k = \frac{0^\circ + 360^\circ k}{6}} & & \text{3. Se aplica la fórmula de raíces} \\
+ \textcolor{red}{k=0,1,2,3,4,5 \Rightarrow \theta=0^\circ,60^\circ,120^\circ,180^\circ,240^\circ,300^\circ} & & \text{4. Se obtienen los seis ángulos} \\
 \end{array}
 $$
 
@@ -858,13 +863,11 @@ Las raíces son:
 
 $$
 \begin{array}{l c l}
-	\textcolor{red}{3} & & \text{5. Primera raíz} \\
-	\textcolor{red}{3(\cos 60^\circ + i\sin 60^\circ)} & & \text{6. Segunda raíz} \\
-	\textcolor{red}{3(\cos 120^\circ + i\sin 120^\circ)} & & \text{7. Tercera raíz} \\
-	\textcolor{red}{3(\cos 180^\circ + i\sin 180^\circ)} & & \text{8. Cuarta raíz} \\
-	\textcolor{red}{3(\cos 240^\circ + i\sin 240^\circ)} & & \text{9. Quinta raíz} \\
-	\textcolor{red}{3(\cos 300^\circ + i\sin 300^\circ)} & & \text{10. Sexta raíz} \\
+ \textcolor{red}{3} & & \text{5. Primera raíz} \\
+ \textcolor{red}{3(\cos 60^\circ + i\sin 60^\circ)} & & \text{6. Segunda raíz} \\
+ \textcolor{red}{3(\cos 120^\circ + i\sin 120^\circ)} & & \text{7. Tercera raíz} \\
+ \textcolor{red}{3(\cos 180^\circ + i\sin 180^\circ)} & & \text{8. Cuarta raíz} \\
+ \textcolor{red}{3(\cos 240^\circ + i\sin 240^\circ)} & & \text{9. Quinta raíz} \\
+ \textcolor{red}{3(\cos 300^\circ + i\sin 300^\circ)} & & \text{10. Sexta raíz} \\
 \end{array}
 $$
-
-
