@@ -871,3 +871,275 @@ $$
  \textcolor{red}{3(\cos 300^\circ + i\sin 300^\circ)} & & \text{10. Sexta raíz} \\
 \end{array}
 $$
+
+*73) $00001111_2$*
+
+$1\cdot 2^3 + 1\cdot 2^2 + 1\cdot 2^1 + 1\cdot 2^0 = 8 + 4 + 2 + 1 =$ **15**
+
+*74) $10011001_2$*
+$1\cdot 2^7 + 1\cdot 2^4 + 1\cdot 2^3 + 1\cdot 2^0 = 128 + 16 + 8 + 1 =$ **153**
+
+*75) $11001100_2$*
+$1\cdot 2^7 + 1\cdot 2^6 + 1\cdot 2^3 + 1\cdot 2^2 = 128 + 64 + 8 + 4 =$ **204**
+
+*76) $01111011_2$*
+$1\cdot 2^6 + 1\cdot 2^5 + 1\cdot 2^4 + 1\cdot 2^3 + 1\cdot 2^1 + 1\cdot 2^0 = 64 + 32 + 16 + 8 + 2 + 1 =$ **123**
+
+*77) $00000000\ 11111111_2$*
+Es equivalente a $11111111_2 = 2^7 + 2^6 + 2^5 + 2^4 + 2^3 + 2^2 + 2^1 + 2^0 = 128 + 64 + 32 + 16 + 8 + 4 + 2 + 1 =$ **255**
+
+*78) $00000010\ 00000000_2$*
+$1\cdot 2^9 =$ **512**
+
+**Conversiones de Binario a Octal**
+
+*79) $11010101_2 \rightarrow (011)(010)(101)_2$*
+
+* $011_2 = 3$
+* $010_2 = 2$
+* $101_2 = 5 \implies$ **$325_8$**
+
+*80) $01101110_2 \rightarrow (001)(101)(110)_2$*
+
+* $001_2 = 1$
+* $101_2 = 5$
+* $110_2 = 6 \implies$ **$156_8$**
+
+*81) $10110011_2 \rightarrow (010)(110)(011)_2$*
+
+* $010_2 = 2$
+* $110_2 = 6$
+* $011_2 = 3 \implies$ **$263_8$**
+
+*82) $00000000\ 11111111_2 \rightarrow (000)(000)(001)(111)(111)_2$*
+
+* $001_2 = 1$, $111_2 = 7$, $111_2 = 7 \implies$ **$377_8$**
+
+*83) $00000011\ 11000000_2 \rightarrow (000)(000)(011)(110)(000)(000)_2$*
+
+* $011_2 = 3$, $110_2 = 6$, $000_2 = 0$, $000_2 = 0 \implies$ **$3600_8$** (o **$03600_8$**)
+
+*84) $00000101\ 01010101_2 \rightarrow (000)(000)(101)(010)(101)(001)_2$*
+
+* $101_2 = 5$, $010_2 = 2$, $101_2 = 5$, $001_2 = 1 \implies$ **$25251_8$** (o **$025251_8$**)
+
+**Conversiones de Binario a Hexadecimal**
+
+*85) $11011010_2 \rightarrow (1101)(1010)_2$*
+
+* $1101_2 = 13 = \text{D}$
+* $1010_2 = 10 = \text{A} \implies$ **$\text{DA}_{16}$**
+
+*86) $01111100_2 \rightarrow (0111)(1100)_2$*
+
+* $0111_2 = 7$
+* $1100_2 = 12 = \text{C} \implies$ **$7\text{C}_{16}$**
+
+*87) $10110105 \implies 10110101_2 \rightarrow (1011)(0101)_2$*
+
+* $1011_2 = 11 = \text{B}$
+* $0101_2 = 5 \implies$ **$\text{B}5_{16}$**
+
+*88) $11110000\ 10100101_2 \rightarrow (1111)(0000)(1010)(0101)_2$*
+
+* $1111_2 = \text{F}$, $0000_2 = 0$, $1010_2 = \text{A}$, $0101_2 = 5 \implies$ **$\text{F0A5}_{16}$**
+
+*89) $00001111\ 00001111_2 \rightarrow (0000)(1111)(0000)(1111)_2$*
+
+* $0000_2 = 0$, $1111_2 = \text{F}$, $0000_2 = 0$, $1111_2 = \text{F} \implies$ **$0\text{F}0\text{F}_{16}$** (o **$\text{0F0F}_{16}$**)
+
+*90) $10000000\ 00000001_2 \rightarrow (1000)(0000)(0000)(0001)_2$*
+
+* $1000_2 = 8$, $0000_2 = 0$, $0000_2 = 0$, $0001_2 = 1 \implies$ **$8001_{16}$**
+
+**Conversiones de Octal a Binario**
+
+*91) $325_8$*
+
+* $3 = 011$, $2 = 010$, $5 = 101 \implies$ **$011010101_2$** (o **$11010101_2$**)
+
+*92) $156_8$*
+
+* $1 = 001$, $5 = 101$, $6 = 110 \implies$ **$001101110_2$** (o **$1101110_2$**)
+
+*93) $377_8$*
+
+* $3 = 011$, $7 = 111$, $7 = 111 \implies$ **$011111111_2$** (o **$11111111_2$**)
+
+*94) $01777_8$*
+
+* $0 = 000$, $1 = 001$, $7 = 111$, $7 = 111$, $7 = 111 \implies$ **$000001111111111_2$**
+
+*95) $03700_8$*
+
+* $0 = 000$, $3 = 011$, $7 = 111$, $0 = 000$, $0 = 000 \implies$ **$000011111000000_2$**
+
+*96) $05255_8$*
+
+* $0 = 000$, $5 = 101$, $2 = 010$, $5 = 101$, $5 = 101 \implies$ **$0000101010101101_2$** (o **$000101010101101_2$**)
+
+**Conversiones de Hexadecimal a Binario**
+
+*97) $\text{DA}_{16}$*
+
+* $\text{D} = 13 = 1101$, $\text{A} = 10 = 1010 \implies$ **$11011010_2$**
+
+*98) $7\text{C}_{16}$*
+
+* $7 = 0111$, $\text{C} = 12 = 1100 \implies$ **$01111100_2$**
+
+*99) $\text{B}5_{16}$*
+
+* $\text{B} = 11 = 1011$, $5 = 0101 \implies$ **$10110101_2$**
+
+*100) $\text{F0A5}_{16}$*
+
+* $\text{F} = 1111$, $0 = 0000$, $\text{A} = 1010$, $5 = 0101 \implies$ **$1111000010100101_2$**
+
+*101) $0\text{F}0\text{F}_{16}$*
+
+* $0 = 0000$, $\text{F} = 1111$, $0 = 0000$, $\text{F} = 1111 \implies$ **$0000111100001111_2$**
+
+*102) $8001_{16}$*
+
+* $8 = 1000$, $0 = 0000$, $0 = 0000$, $1 = 0001 \implies$ **$1000000000000001_2$**
+
+**Clasificación de Polinomios**
+
+*103) $5n+5$*
+
+* Grado 1 (Lineal), 2 términos $\implies$ **Binomio lineal (grado 1)**
+
+*104) $-10p^3-6+9p^2-4p^5-2p^8 \rightarrow -2p^8-4p^5-10p^3+9p^2-6$*
+
+* Grado 8, 5 términos $\implies$ **Polinomio de grado 8 con 5 términos**
+
+*105) $7x^8$*
+
+* Grado 8, 1 término $\implies$ **Monomio de grado 8**
+
+*106) $-2n+n^4+10n^6 \rightarrow 10n^6+n^4-2n$*
+
+* Grado 6, 3 términos $\implies$ **Trinomio de grado 6**
+
+*107) $5$*
+
+* Grado 0, 1 término $\implies$ **Monomio constante (grado 0)**
+
+*108) $5v^7$*
+
+* Grado 7, 1 término $\implies$ **Monomio de grado 7**
+
+**Problemas Aplicados**
+
+### 109) Trabajo compartido (Amy y Jill)
+
+* Amy sola completa $1$ trabajo en $8$ horas (Tasa $A = \frac{1}{8}$).
+* Amy y Jill juntas completan el trabajo en $3.08$ horas (Tasa combinada $= \frac{1}{3.08}$).
+* Planteamiento:
+
+$$\frac{1}{8} + \frac{1}{j} = \frac{1}{3.08}$$
+
+$$\frac{1}{j} = \frac{1}{3.08} - \frac{1}{8} \approx 0.324675 - 0.125 = 0.199675$$
+
+$$j = \frac{1}{0.199675} \approx 5.008\text{ horas}$$
+
+* **Resultado:** Aproximadamente **5 horas**.
+
+---
+
+### 110) Trabajo compartido (Jaidee y Ted)
+
+* Jaidee: Tasa $= \frac{1}{5}$.
+
+* Ted: Tasa $= \frac{1}{7}$.
+
+* Tasa conjunta:
+
+$$\frac{1}{5} + \frac{1}{7} = \frac{7 + 5}{35} = \frac{12}{35}$$
+
+* Tiempo en horas:
+
+$$t = \frac{35}{12} \approx 2.92\text{ horas} \text{ (o 2 horas y 55 minutos)}$$
+
+* **Resultado:** **$\frac{35}{12}$ horas ($\approx 2.92$ horas)**.
+
+---
+
+### 111) Distancia y velocidad (Aviones)
+
+* El avión de la Fuerza Aérea voló $6\text{ h}$ a $310\text{ km/h}$.
+
+* Distancia recorrida:
+
+$$d = 310 \times 6 = 1860\text{ km}$$
+
+* El avión de carga salió $4\text{ h}$ antes, por lo que viajó $6 + 4 = 10\text{ h}$.
+
+* Velocidad del avión de carga ($v$):
+
+$$v = \frac{1860}{10} = 186\text{ km/h}$$
+
+* **Resultado:** **$186\text{ km/h}$**.
+
+---
+
+### 112) Distancia y tiempo (Tren de carga)
+
+* Regreso: $v = 49\text{ km/h}$, $t = 10\text{ h}$.
+
+* Distancia:
+
+$$d = 49 \times 10 = 490\text{ km}$$
+
+* Ida: $v = 35\text{ km/h}$.
+
+* Tiempo de ida ($t$):
+
+$$t = \frac{490}{35} = 14\text{ horas}$$
+
+* **Resultado:** **$14\text{ horas}$**.
+
+---
+
+### 113) Mezcla de tierra y arena
+
+* Volumen 1: $1\text{ yd}^3$ con $30\%$ de arena $\implies 1 \times 0.30 = 0.30\text{ yd}^3$
+
+* Volumen 2: $4\text{ yd}^3$ con $20\%$ de arena $\implies 4 \times 0.20 = 0.80\text{ yd}^3$
+
+* Total de arena:
+
+$$0.30 + 0.80 = 1.10\text{ yd}^3$$
+
+* Total de mezcla:
+
+$$1 + 4 = 5\text{ yd}^3$$
+
+* Porcentaje de arena:
+
+$$\frac{1.10}{5} = 0.22 = 22\%$$
+
+* **Resultado:** **$22\%$ de arena**.
+
+---
+
+### 114) Mezcla de ponche de frutas
+
+* Marca A: $7\text{ L}$ al $11\% \implies 7 \times 0.11 = 0.77\text{ L de jugo}$
+
+* Marca B: $6\text{ L}$ al $24\% \implies 6 \times 0.24 = 1.44\text{ L de jugo}$
+
+* Total de jugo:
+
+$$0.77 + 1.44 = 2.21\text{ L}$$
+
+* Volumen total:
+
+$$7 + 6 = 13\text{ L}$$
+
+* Porcentaje de jugo:
+
+$$\frac{2.21}{13} = 0.17 = 17\%$$
+
+* **Resultado:** **$17\%$ de jugo de fruta**
