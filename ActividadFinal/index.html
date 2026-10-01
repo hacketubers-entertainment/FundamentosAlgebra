@@ -19,8 +19,14 @@
       }
       h1 {
         text-align: center;
+        font-size: 8vw;
+        color: #5d5d5d;
+        transition: 2s;
       }
       h2 {
+        margin-left: 10px;
+      }
+      h3{
         margin-left: 10px;
       }
       #buttonInicio {
@@ -34,6 +40,11 @@
           -7px -7px 14px #ffffff;
         border: 0px solid;
         font-size: 18px;
+        position: fixed;
+        top: 85vh;
+        left: 45vw;
+        cursor: pointer;
+        z-index: 1000;
       }
       #buttonReload {
         padding: 10px;
@@ -49,14 +60,22 @@
           -7px -7px 14px #ffffff;
         border: 0px solid;
         font-size: 18px;
+        cursor: pointer;
       }
       .flexcenter {
         display: flex;
         align-items: center;
         justify-content: center;
       }
-      Main{
+      Main {
         display: none;
+      }
+      a {
+        text-decoration: none;
+        color: #5d5d5d;
+      }
+      a:hover{
+        color: #2e2e2e;
       }
       #tabla {
         margin-top: 50px;
@@ -67,52 +86,69 @@
           14px 14px 28px #9f9f9f,
           -14px -14px 28px #ffffff;
       }
+      tr{
+        border-radius: 4px;
+      }
       td {
         padding: 5px;
+        transition: 200ms;
       }
+      td:hover {
+        border-radius: 4px;
+        background: "transparent";
+        box-shadow:
+          inset 5px 5px 13px #bababa,
+          inset -5px -5px 13px #ffffff;
+      }
+
     </style>
   </head>
   <body>
-    <h1>Fundamentos a Algebra</h1>
+    <h1 id="titulo">Fundamentos a <br> Algebra</h1>
     <button id="buttonReload" onclick="Reload()">o</button>
-    <div id="contenedorInicio" class="flexcenter">
-      <button id="buttonInicio" onclick="Iniciar()">Iniciar</button>
-    </div>
+    <button id="buttonInicio" onclick="Iniciar()">Iniciar</button>
     <main id="main">
       <div class="flexcenter"></div>
       <h2>Indice</h2>
       <div class="flexcenter">
         <ul>
-          <li>Recta numerica numeros Reales</li>
-          <li>Conjuntos de numeros reales</li>
-          <li>Numeros Complejos en el plano</li>
-          <li>Operaciones con numeros complejos</li>
-          <li>Calcular el valor absoluto de los numeros complejos</li>
-          <li>Resolver las potencias de i</li>
-          <li>Convertir numeros complejos a su forma polar</li>
+          <li><a href="#1">Recta numerica numeros Reales</a></li>
+          <li><a href="#2">Conjuntos de numeros reales</a></li>
+          <li><a href="#3">Numeros Complejos en el plano</a></li>
+          <li><a href="#4">Operaciones con numeros complejos</a></li>
+          <li>
+            <a href="#5">Calcular el valor absoluto de los numeros complejos</a>
+          </li>
+          <li><a href="#6">Resolver las potencias de i</a></li>
+          <li><a href="#7">Convertir numeros complejos a su forma polar</a></li>
         </ul>
         <ul>
           <li>
-            Convertir numeros complejos de su forma polar a su forma rectangular
+            <a href="#8"
+              >Convertir numeros complejos de su forma polar a su forma
+              rectangular</a
+            >
           </li>
-          <li>Obtener las raices de los numeros complejos</li>
-          <li>Conversion de binario a decimal</li>
-          <li>Conversion de binario a octal</li>
-          <li>Conversion de binario a hexadecimal</li>
-          <li>Conversion de octal a binario</li>
-          <li>Conversion de hexadecimal a binario</li>
+          <li><a href="#9">Obtener las raices de los numeros complejos</a></li>
+          <li><a href="#10">Conversion de binario a decimal</a></li>
+          <li><a href="#11">Conversion de binario a octal</a></li>
+          <li><a href="#12">Conversion de binario a hexadecimal</a></li>
+          <li><a href="#13">Conversion de octal a binario</a></li>
+          <li><a href="#14">Conversion de hexadecimal a binario</a></li>
         </ul>
         <ul>
           <li>
-            Nombrar polinomios por el exponente mas alto y los numeros de
-            terminos
+            <a href="#15"
+              >Nombrar polinomios por el exponente mas alto y los numeros de
+              terminos</a
+            >
           </li>
-          <li>Obtener las raices de los numeros complejos</li>
-          <li>Conversion de binario a decimal</li>
-          <li>Conversion de binario a octal</li>
-          <li>Conversion de binario a hexadecimal</li>
-          <li>Conversion de octal a binario</li>
-          <li>Conversion de hexadecimal a binario</li>
+          <li><a href="#16">Obtener las raices de los numeros complejos</a></li>
+          <li><a href="#17">Simplificar suma y resta de polinomios</a></li>
+          <li><a href="#18">Simplificar Multiplicacion de polinomios</a></li>
+          <li><a href="#19">Simplificar expresiones de division</a></li>
+          <li><a href="#20">Simplificar expresiones de raiz</a></li>
+          <li><a href="#21">Simplificar expresiones</a></li>
         </ul>
       </div>
       <h2>Glosario</h2>
@@ -120,7 +156,7 @@
         <table>
           <th>Tema</th>
           <th>Definicion</th>
-          <tr>
+          <tr class="row">
             <td>Numeros reales</td>
             <td>
               Son todos los números que se pueden representar en una línea
@@ -129,33 +165,33 @@
             </td>
           </tr>
 
-          <tr>
+          <tr class="row">
             <td>PEMDAS</td>
             <td>
               Parentesis Exponentes Multiplicacion Divicion Adicion Sustraccion
             </td>
           </tr>
-          <tr>
+          <tr class="row">
             <td>Numeros complejos</td>
             <td>
               Son una combinación de un número real y un número imaginario
             </td>
           </tr>
-          <tr>
+          <tr class="row">
             <td>Binario</td>
             <td>
               son un sistema de numeración que utiliza únicamente dos dígitos:
               el 0 y el 1
             </td>
           </tr>
-          <tr>
+          <tr class="row">
             <td>Octal</td>
             <td>
               son un sistema de numeración base 8, utiliza los digitos del 0 al
               8
             </td>
           </tr>
-          <tr>
+          <tr class="row">
             <td>Hexadecimal</td>
             <td>
               son un sistema de numeración base 16, utiliza los digitos del 0 al
@@ -164,18 +200,71 @@
           </tr>
         </table>
       </div>
+      <div>
+        <h3 id="1">Recta numerica numeros Reales</h3>
+        <h3 id="2">Conjuntos de numeros reales</h3>
+        <h3 id="3">Numeros Complejos en el plano</h3>
+        <h3 id="4">Operaciones con numeros complejos</h3>
+        <h3 id="5">Calcular el valor absoluto de los numeros complejos</h3>
+        <h3 id="6">Resolver las potencias de i</h3>
+        <h3 id="7">Convertir numeros complejos a su forma polar</h3>
+        <h3 id="8">Convertir numeros complejos de su forma polar a su forma rectangular</h3>
+        <h3 id="9">Obtener las raices de los numeros complejos</h3>
+        <h3 id="10">Conversion de binario a decimal</h3>
+        <h3 id="11">Conversion de binario a octal</h3>
+        <h3 id="12">Conversion de binario a hexadecimal</h3>
+        <h3 id="13">Conversion de octal a binario</h3>
+        <h3 id="14">Conversion de hexadecimal a binario</h3>
+        <h3 id="15">Nombrar polinomios por el exponente mas alto y los numeros de terminos</h3>
+        <h3 id="16">Obtener las raices de los numeros complejos</h3>
+        <h3 id="17">Simplificar suma y resta de polinomios</h3>
+        <h3 id="18">Simplificar Multiplicacion de polinomios</h3>
+        <h3 id="19">Simplificar expresiones de division</h3>
+        <h3 id="20">Simplificar expresiones de raiz</h3>
+        <h3 id="21">Simplificar expresiones</h3>
+      </div>
     </main>
   </body>
   <script>
-    const contenedorInicio = document.getElementById("contenedorInicio");
-    const main = document.getElementById('main')
+    const buttonInicio = document.getElementById("buttonInicio");
+    const main = document.getElementById("main");
+    const titulo = document.getElementById("titulo");
+    const rows = document.getElementsByClassName("row")
+    let inactivo
+    let activos = []
+    console.log(rows)
     function Iniciar() {
       console.log("hola mundo");
-      contenedorInicio.remove();
-      main.style.display = 'block'
+      buttonInicio.remove();
+      main.style.display = "block";
+      titulo.style.fontSize = "50px";
     }
     function Reload() {
       location.reload();
+    }
+    for (let index = 0; index < rows.length; index++) {
+      let row = rows[index];
+      row.addEventListener("click", (e) => {
+        activos = []
+        console.log("le di click", e.currentTarget.id)
+        for (let cont = 0; cont < rows.length; cont++){
+          if (cont == e.currentTarget.id){
+            e.currentTarget.style.background = "#cdbbf7";
+            e.currentTarget.style.boxShadow = 'inset 5px 5px 13px #aa9bcd, inset -5px -5px 13px #f0dbff';
+            console.log("encontro", e.currentTarget.id)
+            activos.push(1)
+          } else {
+            inactivo = document.getElementById(cont)
+            inactivo.style.background = "transparent";
+            inactivo.style.boxShadow = "inset 0px 0px 0px #fff, inset 0px 0px 0px #fff"
+            activos.push(0)
+          }
+        }
+        console.log("activos fuera for", activos)
+
+      })
+      row.id = index
+      console.log(row)
     }
   </script>
 </html>
