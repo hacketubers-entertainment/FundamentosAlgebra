@@ -1564,15 +1564,15 @@ $$
 
 Respuesta: $\dfrac{3+3\sqrt{2}}{4}$
 
-150): $\dfrac{2}{4+\sqrt{2}}$
+150): $\frac{2}{4+\sqrt{2}}$
 
 $$
 \begin{array}{l c l}
 \frac{2}{4+\sqrt{2}} \cdot \frac{4-\sqrt{2}}{4-\sqrt{2}} & & \text{1. Se multiplica por el conjugado} \\
 \frac{2(4-\sqrt{2})}{4^2 - (\sqrt{2})^2} & & \text{2. Se aplica la diferencia de cuadrados} \\
 \frac{8-2\sqrt{2}}{16-2} = \frac{8-2\sqrt{2}}{14} & & \text{3. Se simplifica la fracción dividiendo entre 2} \\
-\textcolor{red}{\frac{4-\sqrt{2}}{7}} & & \text{4. Resultado final} \\
+\mathbf{\frac{4-\sqrt{2}}{7}} & & \text{4. Resultado final} \\
 \end{array}
 $$
 
-Respuesta: $\dfrac{4-\sqrt{2}}{7}$
+Respuesta: $\frac{4-\sqrt{2}}{7}$
