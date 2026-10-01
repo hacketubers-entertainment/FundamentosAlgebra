@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Actividad Final</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Montserrat";
+        margin: 0;
+        padding: 0;
+        background-color: #dddddd;
+      }
+      h1 {
+        text-align: center;
+      }
+      h2 {
+        margin-left: 10px;
+      }
+      #buttonInicio {
+        padding: 10px;
+        width: 150px;
+        height: 70px;
+        border-radius: 10px;
+        background: linear-gradient(145deg, #f0f0f0, #cacaca);
+        box-shadow:
+          7px 7px 14px #9f9f9f,
+          -7px -7px 14px #ffffff;
+        border: 0px solid;
+        font-size: 18px;
+      }
+      #buttonReload {
+        padding: 10px;
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        border-radius: 100%;
+        background: linear-gradient(145deg, #f0f0f0, #cacaca);
+        box-shadow:
+          7px 7px 14px #9f9f9f,
+          -7px -7px 14px #ffffff;
+        border: 0px solid;
+        font-size: 18px;
+      }
+      .flexcenter {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      Main{
+        display: none;
+      }
+      #tabla {
+        margin-top: 50px;
+        padding: 20px;
+        border-radius: 24px;
+        background: linear-gradient(145deg, #f0f0f0, #cacaca);
+        box-shadow:
+          14px 14px 28px #9f9f9f,
+          -14px -14px 28px #ffffff;
+      }
+      td {
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Fundamentos a Algebra</h1>
+    <button id="buttonReload" onclick="Reload()">o</button>
+    <div id="contenedorInicio" class="flexcenter">
+      <button id="buttonInicio" onclick="Iniciar()">Iniciar</button>
+    </div>
+    <main id="main">
+      <div class="flexcenter"></div>
+      <h2>Indice</h2>
+      <div class="flexcenter">
+        <ul>
+          <li>Recta numerica numeros Reales</li>
+          <li>Conjuntos de numeros reales</li>
+          <li>Numeros Complejos en el plano</li>
+          <li>Operaciones con numeros complejos</li>
+          <li>Calcular el valor absoluto de los numeros complejos</li>
+          <li>Resolver las potencias de i</li>
+          <li>Convertir numeros complejos a su forma polar</li>
+        </ul>
+        <ul>
+          <li>
+            Convertir numeros complejos de su forma polar a su forma rectangular
+          </li>
+          <li>Obtener las raices de los numeros complejos</li>
+          <li>Conversion de binario a decimal</li>
+          <li>Conversion de binario a octal</li>
+          <li>Conversion de binario a hexadecimal</li>
+          <li>Conversion de octal a binario</li>
+          <li>Conversion de hexadecimal a binario</li>
+        </ul>
+        <ul>
+          <li>
+            Nombrar polinomios por el exponente mas alto y los numeros de
+            terminos
+          </li>
+          <li>Obtener las raices de los numeros complejos</li>
+          <li>Conversion de binario a decimal</li>
+          <li>Conversion de binario a octal</li>
+          <li>Conversion de binario a hexadecimal</li>
+          <li>Conversion de octal a binario</li>
+          <li>Conversion de hexadecimal a binario</li>
+        </ul>
+      </div>
+      <h2>Glosario</h2>
+      <div id="tabla">
+        <table>
+          <th>Tema</th>
+          <th>Definicion</th>
+          <tr>
+            <td>Numeros reales</td>
+            <td>
+              Son todos los números que se pueden representar en una línea
+              numérica continua e incluyen a los números racionales y a los
+              números irracionales
+            </td>
+          </tr>
+
+          <tr>
+            <td>PEMDAS</td>
+            <td>
+              Parentesis Exponentes Multiplicacion Divicion Adicion Sustraccion
+            </td>
+          </tr>
+          <tr>
+            <td>Numeros complejos</td>
+            <td>
+              Son una combinación de un número real y un número imaginario
+            </td>
+          </tr>
+          <tr>
+            <td>Binario</td>
+            <td>
+              son un sistema de numeración que utiliza únicamente dos dígitos:
+              el 0 y el 1
+            </td>
+          </tr>
+          <tr>
+            <td>Octal</td>
+            <td>
+              son un sistema de numeración base 8, utiliza los digitos del 0 al
+              8
+            </td>
+          </tr>
+          <tr>
+            <td>Hexadecimal</td>
+            <td>
+              son un sistema de numeración base 16, utiliza los digitos del 0 al
+              9 y las letras del A al F
+            </td>
+          </tr>
+        </table>
+      </div>
+    </main>
+  </body>
+  <script>
+    const contenedorInicio = document.getElementById("contenedorInicio");
+    const main = document.getElementById('main')
+    function Iniciar() {
+      console.log("hola mundo");
+      contenedorInicio.remove();
+      main.style.display = 'block'
+    }
+    function Reload() {
+      location.reload();
+    }
+  </script>
+</html>
