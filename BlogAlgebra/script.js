@@ -26,15 +26,14 @@ function unidad2() {
     unidad2entradas.forEach((post) => {
       const li = document.createElement("li");
       li.innerHTML = `
-                    <a href="entradas.html?id=${post.id}">
-                    <div class="Entrada">
-                    <h3>${post.titulo}<h3/>
-                    <span class="fecha-post">${post.fecha}</span>
-                    <p class="resumen-post">${post.resumen}</p>
-                    <div/>
-                    </a>
-                    
-                `;
+        <a href="entradas.html?id=${post.id}">
+          <div class="Entrada">
+            <h2>${post.titulo}</h2>
+            <span class="fecha-post">${post.fecha}</span>
+            <p class="resumen-post">${post.resumen}</p>
+          </div>
+        </a>
+      `;
       contEntradas.appendChild(li);
     });
   } else {
