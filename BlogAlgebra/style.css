@@ -98,3 +98,17 @@ td:hover {
     inset 5px 5px 13px #bababa,
     inset -5px -5px 13px #ffffff;
 }
+#contEntradas{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+.Entrada{
+  width: 60vw;
+  padding: 30px;
+  border-radius: 10px;
+  background: #e0e0e0;
+  box-shadow:  24px 24px 45px #b8b8b8,
+              -24px -24px 45px #ffffff;
+}

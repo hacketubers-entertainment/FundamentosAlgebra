@@ -36,11 +36,11 @@
         <p>Cargando contenido...</p>
     </main>
 
-    <script src="posts.js"></script>
+    <script src="temas.js"></script>
     <script>
         const params = new URLSearchParams(window.location.search);
         const postId = params.get('id');
-        const postInfo = publicaciones.find(p => p.id === postId);
+        const postInfo = unidad2entradas.find(p => p.id === postId);
         const contenedor = document.getElementById('contenido-entrada');
 
         if (postInfo) {

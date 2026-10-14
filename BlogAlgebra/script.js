@@ -19,31 +19,26 @@ function unidad2() {
   main.style.display = "block";
   titulo.style.fontSize = "50px";
   main.innerHTML = contenidoUnidad2;
-  tablaClickeable();
-  const params = new URLSearchParams(window.location.search);
-  const postId = params.get("id");
-  const postInfo = publicaciones.find((p) => p.id === postId);
-  const contenedor = document.getElementById("contenido-entrada");
-
-  if (postInfo) {
-    document.getElementById("titulo-pagina").textContent =
-      postInfo.titulo + " - Blog Matemático";
-    document.getElementById("titulo-entrada").textContent = postInfo.titulo;
-    document.getElementById("fecha-entrada").textContent =
-      "Publicado el: " + postInfo.fecha;
-
-    const script = document.createElement("script");
-    script.src = postInfo.archivo;
-    script.onload = () => {
-      contenedor.innerHTML = contenidoEntrada;
-    };
-    script.onerror = () => {
-      contenedor.innerHTML =
-        "<p>Error al cargar el contenido de la entrada.</p>";
-    };
-    document.body.appendChild(script);
+  console.log(contenidoUnidad2)
+  const contEntradas = document.getElementById("contEntradas")
+  // Cargar dinámicamente las entradas definidas en posts.js
+  if (typeof unidad2entradas !== "undefined" && unidad2entradas.length > 0) {
+    unidad2entradas.forEach((post) => {
+      const li = document.createElement("li");
+      li.innerHTML = `
+                    <a href="entradas.html?id=${post.id}">
+                    <div class="Entrada">
+                    <h3>${post.titulo}<h3/>
+                    <span class="fecha-post">${post.fecha}</span>
+                    <p class="resumen-post">${post.resumen}</p>
+                    <div/>
+                    </a>
+                    
+                `;
+      contEntradas.appendChild(li);
+    });
   } else {
-    contenedor.innerHTML = "<p>Entrada no encontrada.</p>";
+    contEntradas.innerHTML = "<li>No hay entradas publicadas aún.</li>";
   }
 }
 function Reload() {
