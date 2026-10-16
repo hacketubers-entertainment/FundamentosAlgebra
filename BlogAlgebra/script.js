@@ -28,7 +28,7 @@ function unidad2() {
       li.innerHTML = `
         <a href="entradas.html?id=${post.id}">
           <div class="Entrada">
-            <h2>${post.titulo}</h2>
+            <h2 style="view-transition-name: titulo">${post.titulo}</h2>
             <span class="fecha-post">${post.fecha}</span>
             <p class="resumen-post">${post.resumen}</p>
           </div>

@@ -1,3 +1,6 @@
+@view-transition {
+  navigation: auto;
+}
 body {
   font-family: "Montserrat";
   margin: 0;
