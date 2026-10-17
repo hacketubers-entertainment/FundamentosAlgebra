@@ -8,9 +8,9 @@ const unidad2entradas = [
   },
   {
     id: "fact",
-    titulo: "Factorizacion",
+    titulo: "Factorizacion 1",
     archivo: "unidad2/factorizacion.js",
-    fecha: "2026-10-08",
+    fecha: "2026-10-17",
     resumen: "término común, trinomio cuadrado perfecto y diferencia de cuadrados."
   },
 ];
