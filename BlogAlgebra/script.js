@@ -24,8 +24,8 @@ function unidad2() {
   // Cargar dinámicamente las entradas definidas en posts.js
   if (typeof unidad2entradas !== "undefined" && unidad2entradas.length > 0) {
     unidad2entradas.forEach((post) => {
-      const li = document.createElement("li");
-      li.innerHTML = `
+      const article = document.createElement("article");
+      article.innerHTML = `
         <a href="entradas.html?id=${post.id}">
           <div class="Entrada">
             <h2 style="view-transition-name: titulo">${post.titulo}</h2>
@@ -34,7 +34,7 @@ function unidad2() {
           </div>
         </a>
       `;
-      contEntradas.appendChild(li);
+      contEntradas.appendChild(article);
     });
   } else {
     contEntradas.innerHTML = "<li>No hay entradas publicadas aún.</li>";
