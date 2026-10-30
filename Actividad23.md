@@ -2,6 +2,12 @@
 
 ## Ecuaciones Lineales
 
+### Graficas 89-88
+
+![Descripción de la imagen](./images/graficasEcuacones1.jpeg)
+
+![Descripción de la imagen](./images/graficasEcuaciones2.jpeg)
+
 ### Ejercicio 89
 
 $$-30+6x=-8(-6-4x)$$
