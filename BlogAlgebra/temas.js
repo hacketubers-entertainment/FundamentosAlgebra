@@ -20,4 +20,11 @@ const unidad2entradas = [
     fecha: "2026-10-22",
     resumen: "suma y diferencia de cubos, trinomios x² + bx + c y trinomios ax² + bx + c (aspa simple)."
   },
+  {
+    id: "ecu",
+    titulo: "Ecuaciones Lineales",
+    archivo: "unidad2/ecuacionesLineales.js",
+    fecha: "2026-10-29",
+    resumen: " enteras, fraccionarias, con signos de agrupación y con literales."
+  },
 ];
