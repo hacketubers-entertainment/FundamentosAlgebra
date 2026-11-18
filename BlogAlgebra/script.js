@@ -40,6 +40,12 @@ function unidad2() {
     contEntradas.innerHTML = "<li>No hay entradas publicadas aún.</li>";
   }
 }
+function unidad3() {
+  contButtons.remove();
+  main.style.display = "block";
+  titulo.style.fontSize = "50px";
+  main.innerHTML = contenidoUnidad3;
+}
 function Reload() {
   location.reload();
 }
