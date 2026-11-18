@@ -65,12 +65,18 @@ function pendiente(nombre, workshop) {
  */
 function sumar(A, B) {
   // TODO Workshop 1
-  pendiente('sumar', 'Workshop 1');
   if (!mismoOrden(A, B)){
     throw new Error('Para sumar, A y B deben tener el mismo orden.');
   }
   const [m,n] = orden(A)
-  let R = crearMatriz(m, n);
+  let r = crearMatriz(m, n);
+  for (let i = 0; i < r.length; i++) {
+    for (let j = 0; j < r.length; j++) {
+      r[i][j] = A[i][j] + B[i][j]
+    }
+  }
+  console.log(r)
+  return r;
 }
 
 /**
@@ -79,7 +85,18 @@ function sumar(A, B) {
  */
 function restar(A, B) {
   // TODO Workshop 1
-  pendiente('restar', 'Workshop 1');
+  if (!mismoOrden(A, B)){
+    throw new Error('Para sumar, A y B deben tener el mismo orden.');
+  }
+  const [m,n] = orden(A)
+  let r = crearMatriz(m, n);
+  for (let i = 0; i < r.length; i++) {
+    for (let j = 0; j < r.length; j++) {
+      r[i][j] = A[i][j] - B[i][j]
+    }
+  }
+  console.log(r)
+  return r;
 }
 
 /**
